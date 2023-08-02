@@ -5,10 +5,6 @@ print("----------------------------------------------------------")
 def div_3(num):
     return num % 3 == 0
 
-# Function to get the sum of digits of a number
-def sum_of_digits(num):
-    return sum(int(digit) for digit in str(num))
-
 # Given list
 shrey = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
@@ -21,8 +17,11 @@ square_of_even = [num**2 for num in shrey if num % 2 == 0]
 print("Square of even numbers:", square_of_even)
 
 # Sum of digits of all EVEN numbers in the list
-sum_of_digits_even = [sum_of_digits(num) for num in shrey if num % 2 == 0]
-print("Sum of digits of even numbers:", sum_of_digits_even)
+sum_of_digits_even = [num for num in shrey if num % 2 == 0]
+sum=0 
+for i in sum_of_digits_even:
+    sum+=i
+print("sum is : " ,sum)
 
 # Remove duplicate numbers in the list
 unique_list = list(set(shrey))
