@@ -1,3 +1,3 @@
 # python_lab_assignment
 
-## Its a Python file, open directly in vs code to run
+### It's a Python file, open directly in "VS code" to run.
