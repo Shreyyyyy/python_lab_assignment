@@ -1,6 +1,7 @@
 print("----------------------------------------------------------")
 print("------------Q2---2347155------Shreyans Jain---------------")
 print("----------------------------------------------------------")
+
 # Function to check if a number is divisible by 3
 def div_3(num):
     return num % 3 == 0
@@ -21,7 +22,7 @@ sum_of_digits_even = [num for num in shrey if num % 2 == 0]
 sum=0 
 for i in sum_of_digits_even:
     sum+=i
-print("sum is : " ,sum)
+print("The sum of all the even elements is: " ,sum)
 
 # Remove duplicate numbers in the list
 unique_list = list(set(shrey))
@@ -46,6 +47,6 @@ def birthDate(name):
     return employee_details.get(name, "Employee not found")
 
 # Example:
-print(birthDate('Umesh Yadav')) # 25 october
+print("The date of birth is : ",birthDate('Umesh Yadav')) # 25 october
 
 print("----------------------------------------------------------")
